@@ -1,1 +1,0 @@
-SSH, or Secure Shell, is a remote administration protocol that allows users to control and modify their remote servers over the Internet.

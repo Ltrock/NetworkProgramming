@@ -22,7 +22,7 @@ class ServerThreading():
         print("Connect with client", addr)
         data = c.recv(1024)
         if (data.decode() == "download"):
-            print("received download cmd")
+            #print("received download cmd")
             print(os.listdir("/home/pran/noninstantfile/server/"))
             FileName = c.recv(1024)
             for file in os.listdir("/home/pran/noninstantfile/server/"):
@@ -30,7 +30,7 @@ class ServerThreading():
                     flag = 1 #found file
                     break
             if flag == 0:
-                print(" Not Found On Server")
+                print(" File Not Found On Server")
             else:
                 print("File Found")
                 upfile = FileName.decode()

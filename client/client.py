@@ -53,7 +53,7 @@ canvas.create_window(400, 320, window=label3)
 en = StringVar()
 en.set("ssh.txt")
 # Create a option menu
-entry1 = OptionMenu(root, en, "ssh.txt", "ddos.txt","csvssh.csv","sshbrute.pcap","snort.jpeg")
+entry1 = OptionMenu(root, en, "ssh.txt", "ddos.txt","csvssh.csv","sshbrute.pcap","img.JPG")
 canvas.create_window(430, 360, window=entry1)
 progress=Progressbar(root,orient=HORIZONTAL,length=300,mode='determinate')
 #progress.pack()
